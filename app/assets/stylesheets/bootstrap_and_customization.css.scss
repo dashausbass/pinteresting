@@ -1,5 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito:400,300);
+
+$font-family-sans-serif: 'Nunito', Arial; 
+
 $body-bg: #7f8c8d;
-$navbar-inverse-bg: #2c3e50;
-$brand-primary: #2c3e50;
+$navbar-default-bg: #2c3e50;
+$navbar-default-brand-color: #ecf0f1;
+$navbar-default-link-color: #ecf0f1; 
+$brand-primary: #2c3e50; // midnight blue
 $jumbotron-bg: #bdc3c7; 
-@import 'bootstrap'
+
+@import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+
+/* .navbar-brand {
+	font-weight: bold;
+} */
+
+
+
