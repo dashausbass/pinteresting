@@ -2,7 +2,7 @@ Pinteresting::Application.routes.draw do
   resources :pins
 
   devise_for :users
-  root :to => "pages#home"
+  root :to => "pins#index"
   #get "pages/home"
   #get "pages/about" => "pages#about"
   get "about" => "pages#about"
